@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(https://static.vecteezy.com/system/resources/previews/010/007/782/original/of-modern-abstract-geometric-background-free-vector.jpg);
+    background-size: cover;
+}
+.header{ 
+    padding: 50px 50px 20px 50px;
+    font-size: 30px;
+}
+.header h1{ 
+    color: rgb(0, 137, 137);
+
+}
+.header span{ 
+    color: rgb(212, 24, 212);
+}
+
+.pictures1{ 
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pictures1 img{ 
+    height: 300px;
+    border: 5px double black;
+}
+
+.pictures2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pictures2 img{ 
+    height: 300px;
+    margin: 50px;
+    border: 5px double black;
+}
+
+.logo{ 
+    display: flex;
+    font-size: 25px;
+    font-weight: 400;
+    /* border: 2px solid red; */
+    align-items: center;
+    height: 8vh;
+}
+
+.logo a{ 
+    position: fixed;
+    left: 84%;
+    bottom: 3%;
+    text-decoration: none;
+    color: rgb(27, 0, 26);
+    transition: 0.3s;
+    padding: 5px 20px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+
+.logo a:hover{ 
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color:  rgb(229, 225, 255);
+    background-color: rgb(0, 51, 72);
+}
+

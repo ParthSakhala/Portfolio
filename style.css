@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300:400:500:600:700:800:900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Pacifico&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Pacifico&family=Patrick+Hand&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Pacifico&family=Patrick+Hand&family=Prompt&family=Yuji+Hentaigana+Akebono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Pacifico&family=Patrick+Hand&family=Prompt&family=Tilt+Prism&family=Yuji+Hentaigana+Akebono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Comic+Neue:wght@700&family=Pacifico&family=Patrick+Hand&family=Prompt&family=Tilt+Prism&family=Yuji+Hentaigana+Akebono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: url(https://static.vecteezy.com/system/resources/previews/010/007/782/original/of-modern-abstract-geometric-background-free-vector.jpg);
+    background-size: cover;
+    
+}
+
+.header{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ab60cc;
+    position: sticky;
+    z-index: 1;
+}
+.navbar{
+    padding: 0 3% 0 0;
+}
+.logo{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 60px;
+    padding: 0 20%;
+    text-decoration: none;
+    color: rgb(223, 234, 248);
+    text-align: center;
+}
+
+.navbar a{
+    /* border: 2px solid red; */
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: end;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 2%;
+    transition: .5s;
+}
+.navbar a:hover{
+    color: #250628
+}
+
+.home{
+    display: flex;
+}
+h1{
+    font-family:'Poppins' ; 
+    width: 500px;
+    font-size: 70px;
+    font-weight: 900;
+    padding: 0 8%;
+    color: rgba(63, 7, 76, 0.828);
+    margin-top: 20px;
+}
+
+h2{
+    font-family: 'Bungee Shade', cursive;
+    width: 500px;
+    font-size: 42px;
+    font-weight: 900;
+    padding: 1% 8%;
+    color: rgb(27, 44, 2);
+    background-color: rgba(250, 235, 215, 0.52);
+}
+
+p{
+    font-family: 'Comic Neue';
+    font-weight: 400;
+    height: 215px;
+    width: 500px;
+    padding: 1% 8%;
+    font-size: 28px;
+    color: rgb(1, 24, 31);
+    /* border: 2px solid red; */
+    /* background-color: rgba(109, 219, 234, 0.524); */
+
+}
+.images{
+    width: 5%;
+    height: 70%;
+    position: absolute;
+    bottom: 10%;
+    right: 100px;
+    left: 35%;
+    margin-left: 25%;
+    
+    
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    border: 2px dashed rgb(3, 44, 50);
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: #012523;
+}
+.home-sci{
+    position: absolute;
+    bottom: 20px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 8%;
+
+}
+
+.home-sci a:hover{
+    color: #884646;
+}
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background:transparent;
+    border: 3px solid #03232f;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #046eac;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    margin-left: 0px ;
+    margin-right: 30px;
+    
+}
+
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #012432;
+    z-index: -1;
+    transition: 0.5s;
+}
+.home-sci a:hover::before{ 
+    width: 100%;
+}
